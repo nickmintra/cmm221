@@ -1,0 +1,39 @@
+header .navbar-tabs {
+  justify-content: center;
+}
+
+.highlight {
+  margin-bottom: 0 ! important;
+}
+.highlight .highlight-item {
+  height: 416px ;
+  background: url("/assets/images/home/banner/highlight.jpg") no-repeat center/cover;
+    color: #cd5c5c;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+ .highlight .highlight-item h1 {
+  font-size: 70px;
+  font-family: Agency fb;
+ }
+
+ .thumbnail{
+  border-top: 0.1rem solid #ffffff;
+ }
+ .thumbnail .thumbnail-item {
+  border-right: .1rem solid #ffffff;
+ }
+  .thumbnail .thumbnail-item:last-child {
+  border: none;
+ }
+ .thumbnail .thumbnail-item {
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  color: #559354;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 10rem;
+ }
